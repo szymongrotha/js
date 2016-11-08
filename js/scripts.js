@@ -1,19 +1,14 @@
-{
-	var a = prompt('Podaj wartość a');
-	var b = prompt('Podaj wartość b');
-	var value = (a * a) + (2 * a * b) - (b * b);
 
-	console.log('Wynik działania to ' + value);
+var a = prompt('Podaj wartość a');
+var b = prompt('Podaj wartość b');
+var value = (a * a) + (2 * a * b) - (b * b);
 
-	if (value < 0) {
-		console.log('Wynik jest ujemny');	
-	}
+console.log('Wynik działania to ' + value);
 
-	else if (value > 0) {
-		console.log ('Wynik jest dodatni');
-	}
-
-	else {
-		console.log ('Wynik to zero');
-	}
+if (value < 0) {
+	console.log('Wynik jest ujemny');	
+} else if (value > 0) {
+	console.log ('Wynik jest dodatni');
+} else {
+	console.log ('Wynik to zero');
 }
